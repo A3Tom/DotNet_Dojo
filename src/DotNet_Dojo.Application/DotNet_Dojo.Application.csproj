@@ -5,7 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\DotNet_Dojo.Command\DotNet_Dojo.Command.csproj" />
+    <ProjectReference Include="..\DotNet_Dojo.Domain\DotNet_Dojo.Domain.csproj" />
   </ItemGroup>
 
 </Project>
