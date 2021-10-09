@@ -1,3 +1,4 @@
+using DotNet_Dojo.Api.Extensions;
 using DotNet_Dojo.Domain.Extensions;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -21,6 +22,8 @@ namespace DotNet_Dojo.Api
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMediatorReferences();
+
+            services.AddServiceReferences();
 
             services.AddControllers();
             services.AddSwaggerGen(c =>
